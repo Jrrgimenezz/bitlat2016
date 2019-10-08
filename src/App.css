@@ -1,0 +1,97 @@
+.App {
+  background-image: url("images/backgroundBS.jpg");
+  background-size: cover;
+
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  padding-top: 10px;
+  padding-left: 20px;
+  height:40px
+}
+
+.App-header {
+  background-color: transparent;
+  height: 70px;
+  padding:;
+  color: red;
+  display: flex;
+
+}
+
+.footer {
+  background-color: #202020;
+}
+
+.bitlat2018{
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+.contactus{
+  padding-top: 20px;
+  margin-left: 30%;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.myLinks{
+  display: none;
+  right: 0;
+  position: absolute;
+  padding-top: 20px;
+  padding-right: 3%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.faqbutton{
+  font-family: 'Raleway', sans-serif;
+  color: #1a1a1a;
+  border: 2px solid #f44336;
+  border-radius: 20px;
+  padding: 9px 15px 9px 15px;
+}
+
+.contactbutton{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 40px;
+  color: #1a1a1a;
+  border: 2px solid #f44336;
+  border-radius: 20px;
+  padding: 9px 15px 9px 15px;
+}
+
+.faqbutton:hover {
+  color: white;
+  border-color: #f46d63;
+  transition: 0.3s;
+}
+
+.contactbutton:hover {
+  color: white;
+  border-color: #f46d63;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 400px) {
+  .App-logo {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 382px) {
+  .contactbutton{
+    margin-left: 20px;
+  }
+}
